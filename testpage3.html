@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>D6:Learning HTML</title>
+    <link rel='stylesheet' href="styles.css"/>
   </head>
   <body>
     <h1>Page 3</h1>
@@ -31,12 +32,11 @@
     <h2>More Requirments</h2>
     <p>Also pictures.</p>
     <img src="https://www.wikihow.com/images/thumb/d/dc/Insert-Images-with-HTML-Step-5-Version-5.jpg/aid233241-v4-728px-Insert-Images-with-HTML-Step-5-Version-5.jpg.webp">
-    <h2>Links</h2>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="testpage2.html">Second Page</a></li>
-      <li>You're on the "Third" page.</li>
-      <li><a href="about.html">About</a></li>
+    <ul class='navBar'>
+      <li class='navBarList'><a class='navBarLink' href="index.html">Home</a></li>
+      <li class='navBarList'><a class='navBarLink' href="testpage2.html">Second Page</a></li>
+      <li class='navBarList'><a class='navBarLink' id='activePage' href="testpage3.html">Third Page</a></li>
+      <li class='navBarList'><a class='navBarLink' href="about.html">About</a></li>
     </ul>
     <hr>
     <p>Image courtesy of WikiHow</p>

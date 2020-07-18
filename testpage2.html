@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>D6:Learning HTML</title>
+    <link rel='stylesheet' href="styles.css"/>
   </head>
   <body>
     <h1>Page 2</h1>
@@ -28,12 +29,11 @@
       <li>Offroading</li>
     </ul>
     <br>
-    <h2>Links</h2>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li>You're on the "Second" page.</li>
-      <li><a href="testpage3.html">Third Page</a></li>
-      <li><a href="about.html">About</a></li>
+    <ul class='navBar'>
+      <li class='navBarList'><a class='navBarLink' href="index.html">Home</a></li>
+      <li class='navBarList'><a class='navBarLink' id='activePage' href="testpage2.html">Second Page</a></li>
+      <li class='navBarList'><a class='navBarLink' href="testpage3.html">Third Page</a></li>
+      <li class='navBarList'><a class='navBarLink' href="about.html">About</a></li>
     </ul>
   </body>
 </html>
