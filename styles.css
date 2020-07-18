@@ -1,0 +1,82 @@
+h1{
+  text-align: center;
+  background-color: #ffa500;
+  padding: 50px;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-top: 50px;
+  margin-bottom:;
+}
+
+h2{
+  background-color: #ff0000;
+}
+
+#myName{
+  background-color: #000080;
+  margin-top: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "TimesNewRoman", Times, serif;
+  font-weight: normal;
+
+}
+
+p{
+  font-family: "Calibri", sans-serif;
+  text-align: center;
+  color: #000080;
+}
+
+.academics strong{
+  color: #000000;
+  display: inline;
+}
+
+.navBar{
+  /*position: -webkit-sticky; /* Safari */
+  /*position: sticky;*/
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #b57edc;
+}
+
+.navBarList{
+  float: left;
+  border-right: 2px solid #d3d3d3;
+}
+
+.navBarList:last-child{
+  border-right: none;
+}
+
+.navBarLink{
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  font-size: 24px;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navBarLink:hover{
+  background-color: #6a0dad;
+}
+
+#activePage{
+  background-color: #add8e6;
+}
+
+/*code to test position:sticky for navBar*/
+/*div{
+  margin-bottom: 600px
+}*/
