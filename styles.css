@@ -9,12 +9,12 @@ h1{
 }
 
 h2{
-  background-color: #ff0000;
+  background-color: #ffcccb;
 }
 
 #myName{
-  color: #808080;
-  background-color: #000080;
+  color: #ABABAC;
+  background-color: #2C55F4;
   margin-top: 0px;
   padding: 0px;
   box-sizing: border-box;
@@ -34,7 +34,6 @@ p{
 
 .academics strong{
   color: #000000;
-  display: inline;
 }
 
 .navBar{
@@ -76,6 +75,64 @@ p{
 #activePage{
   background-color: #add8e6;
 }
+
+.flex{
+  display:flex;
+  flex-direction:column;
+}
+.req{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:space-around;
+}
+.backblue{
+  background-color:#ADD8E6;
+}
+.backgreen{
+  background-color:#90ee90;
+}
+.backorange{
+  background-color: #fed8b1;
+  font-size: 2em;
+  padding: 50px;
+}
+.aboutTag{
+  display:flex;
+  justify-content: center;
+}
+.sideways{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+}
+.fifty{
+  width: 100%;
+}
+@media only screen and (min-width: 800px) {
+  .sideways{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+  }
+  .fifty{
+    width: 50%;
+  }
+}
+.section{
+
+}
+#aa{
+  background-color: #ADD8E6;
+  text-align: center;
+}
+#bb{
+  background-color: #90ee90;
+  text-align: center;
+}
+
+
 /*code to test position:sticky for navBar*/
 /*div{
   margin-bottom: 600px
